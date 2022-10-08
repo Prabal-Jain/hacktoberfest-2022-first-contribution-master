@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/**************dark mode start *******************/
+
+.mode {
+  float:right;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 8px;
+}
+
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+/**************dark mode end *******************/
+
+.blockquote {
+  box-shadow: 0px 10px 6px rgb(211 211 211 / 50);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.profile-section {
+  box-shadow: 0px 10px 6px rgb(211 211 211 / 50);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  min-height: 300px
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.icon-link {
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+.icon-link-github {
+  color: black;
+}
+
+.icon-link-linkedin {
+  color: #0072b1;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0072b1;
+}
+
+.footerBlockquote {
+  box-shadow: 0px -9px 6px 0px rgb(211 211 211 / 50);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.profile-skills {
+  font-size: 13px;
+}
+
+.hacktoberfestText{
+ color: black;
+ font-size: 100;
+ font-weight: bolder;
+}
+
+@media(max-width: 300px) {
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+}
